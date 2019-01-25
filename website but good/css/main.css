@@ -1,0 +1,38 @@
+/*BeakSquadNav*/
+
+.mainNav {
+	background-color: #000;
+	
+}
+.mainNav a {
+	color: #fff;
+}
+.hero {
+	width: 100vw;
+	height: 80vh;
+	display: flex;
+	background-image: url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg");	
+	background-size: cover;
+	background-position: center center;
+}
+.blurb {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 8em;
+	padding-right: 8em;
+	font-size: 1.2em;
+}
+.spacer {
+	height: 20px;
+	background-color: springgreen;
+}
+.blurbImage {
+	display: flex;
+	width: 100%;
+}
+.noPadding {
+	padding: 0;
+}
+.achievementBlocks {
+	height: 200px;
+}
