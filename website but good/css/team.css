@@ -1,0 +1,23 @@
+/* CSS Document */
+
+form {
+	width: 500px;
+	margin: 50px auto;
+}
+.search {
+	pading: 8px 15px;
+	bckground: rgba(50, 50, 50, 0.2);
+	border: opx solid #dbdbdb;
+}
+.button {
+	possition: relative;
+	padding: 6px 15px;
+	left:-8px;
+	border: 2px solid #207cca;
+	background-color: #207cca;
+	color: #fafafa;
+}
+.button:hover {
+	background-color: #fafafa;
+	color: #207cca;
+}
