@@ -4,50 +4,60 @@
 <meta charset="utf-8">
 <title>Beak Squad - 4028</title>
 	<link href="./css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link href="./css/main.css" rel="stylesheet">
 </head>
 
 <body>
+	
 	<!--Start Main Nav-->
-	<div class="container-fluid mainNav">
-	<ul class="nav nav-pills nav-fill">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Updates</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Store</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Achievements</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Robot</a>
-  </li>
-</ul>
-	</div>
+	<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #000">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">The BeakSquad</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#beaksquadMenu" aria-controls="beaksquadmenu" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+		
+		<div class="collapse navbar-collapse" id="beaksquadMenu">
+			<nav style="width: 100%" class="nav flex-column flex-md-row">
+			<a class="flex-sm-fill text-xs-center nav-link" href="#"><i class="fa fa-home"></i> Home</a>
+			<a class="flex-sm-fill text-xs-center nav-link" href="#"><i class="fas fa-newspaper"></i> Updates</a>
+			<a class="flex-sm-fill text-xs-center nav-link" href="#"><i class="fas fa-shopping-cart"></i> Store</a>
+			<a class="flex-sm-fill text-xs-center nav-link" href="#"><i class="fas fa-trophy"></i> Achievements</a>
+			<a class="flex-sm-fill text-xs-center nav-link" href="#"><i class="fab fa-bitcoin"></i>Undecided</a>
+			</nav>
+		</div>
+		</div>
+	</nav>
 	<!--End Main Nav-->
 	
 	<!--Start First Header-->
 	<div class="hero">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<img src="./img/potatodalek.jpg" class="" alt="potatodalek">
+			<div class="row heroContent">
+				<div class="col-md-6 flexCenter">
+					<img class="heroImage" src="./img/Eclipse_Robot.png" alt="Eclipse Robot">
 				</div>
-				<div class="col-md-6">
-					<h1 class="header">The Beak Squad</h1>
-					<h1 class="header">Destination</h1>
-					<h1 class="header">Deep Space</h1>
+				<div class="col-md-6 flexCenter text-white">
+					<h1 class="heroHeader">The Beak Squad<br>Destination<br>Deep Space</h1>
+				</div>
+				<div class="col-md-4 flexCenter sponsorShadow">
+					<img class="heroSponsor" src="./img/mikes-nashville-hot.png" alt="Mike's Nashville Hot">
+				</div>
+				<div class="col-md-4 flexCenter sponsorShadow">
+					<img class="honeywell" src="./img/honeywell-intelligrated.png" alt="Mike's Nashville Hot">
+				</div>
+				<div class="col-md-4 flexCenter sponsorShadow">
+					<img class="heroSponsor" src="./img/philipsedison.jpg" alt="Mike's Nashville Hot">
 				</div>
 			</div>
 		</div>
 	</div>
 	<!--End First Header-->
 	
-		<!--Start Second Header-->
+		<div class="spacer"></div>
+	
+		<!--Start Second Header
 	<div class="hero">
 		<div class="container-fluid">
 			<div class="row">
@@ -55,89 +65,52 @@
 					<img src="./img/potatodalek.jpg" class="" alt="potatodalek">
 				</div>
 				<div class="col-md-6">
-					<h1 class="header">The Beak Squad</h1>
+					<h1 class="heroHeader">The Beak Squad</h1>
 					<img src="./img/honeywell-intelligrated.png" alt="Honeywell Intelligrated">
 					<img src="./img/mikes-nashville-hot.png" alt="Mike's Nashville Hot">
 				</div>
 			</div>
 		</div>
 	</div>
-	<!--End Second Header-->
+	End Second Header-->
 	
 	<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<iframe class="youtubeVideo" src="https://www.youtube.com/embed/UQSIw8anUqM" frameborder="0" allow=" autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-				</div>
-				<div class="col-md-6 blurb">
-					<h2>Third Level Climber Reveal 2019</h2>
-					<hr>
-					<p>Our group decided that spending our time trying to come up with a reliable and functional third level climbing mechanism would be of the greatest use to our team and the FRC community. So we focused all of our attention for this project towards achieving that goal, and here is the result.</p>
-					<hr>
-				</div>
+		<div class="row">
+			<div class="col-md-6 noPadding">
+				<iframe class="blurbVideo" height="100%" width="100%" src="https://www.youtube.com/embed/UQSIw8anUqM" frameborder="0" allow=" autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6 blurb largeText">
+				<h2>Third Level Climber Reveal 2019</h2>
+				<hr>
+				<p>Our group decided that spending our time trying to come up with a reliable and functional third level climbing mechanism would be of the greatest use to our team and the FRC community. So we focused all of our attention for this project towards achieving that goal, and here is the result.</p>
+				<hr>
 			</div>
 		</div>
-	
-	<div class="spacer"></div>
+	</div>
 	
 <div class="container-fluid">
 			<div class="row">
-				<div class="col-md-6">
-					<iframe src="https://player.twitch.tv/?channel=esl_csgo" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/esl_csgo?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;"></a>
-				</div>
-				<div class="col-md-6 blurb">
+				<div class="col-md-6 blurb largeText">
 					<h2>Buckeye Regional</h2>
 					<hr>
-					<p>February 28-30</p>
-					<p>Cleveland State University</p>
-					<p>Wolstein Center </p>
-					<p>2000 Prospect Avenue</p>
-					<p>Cleveland, OH 44115</p>
+						<p>February 28-30</p>
+					<a href="https://goo.gl/maps/4pZcQJ9GqtB2">
+						<p>Cleveland State University</p>
+					</a>
+				</div>
+				<div class="col-md-6 noPadding">
+					<iframe class="blurbVideo" src="https://player.twitch.tv/?channel=FirstInspires" frameborder="0" allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe><a href="https://www.twitch.tv/esl_csgo?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;"></a>
 				</div>
 			</div>
 		</div>		
 	
-	<div class="spacer"></div>
-	
-	<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<iframe src="https://player.twitch.tv/?channel=esl_csgo" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/esl_csgo?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;"></a>
-				</div>
-				<div class="col-md-6 blurb">
-					<h2>Buckeye Regional</h2>
-					<hr>
-					<p>February 28-30</p>
-					<p>Cleveland State University</p>
-					<p>Wolstein Center </p>
-					<p>2000 Prospect Avenue</p>
-					<p>Cleveland, OH 44115</p>
-				</div>
-			</div>
-		</div>		
-	
-	<div class="spacer"></div>
 	
 	<!--Blurb 1-->
 			<div class="row">
-				<div class="col-md-6 blurb">
-				<h2>Header</h2>
-					<hr>
-					<p>Spicy jalapeno bacon ipsum dolor amet mollit magna in deserunt culpa nisi. Capicola cow ut, labore dolore consequat in ribeye t-bone fatback ea laborum incididunt bacon adipisicing. Qui pig prosciutto ea excepteur, in laboris tail pariatur cillum aliqua. T-bone porchetta shankle labore, nostrud doner ball tip flank bacon.</p>
-				</div>
 				<div class="col-md-6 noPadding">
 					<img src="./img/placeholder.png" alt="placeholder.yeet" class="blurbImage">
 				</div>
-			</div>
-	
-	<div class="spacer"></div>
-	
-	<!--Blurb 2-->
-			<div class="row">
-				<div class="col-md-6 noPadding">
-					<img src="./img/placeholder.png" alt="placeholder.yeet" class="blurbImage">
-				</div>
-				<div class="col-md-6 blurb">
+				<div class="col-md-6 blurb largeText">
 				<h2>Header</h2>
 					<hr>
 					<p>Spicy jalapeno bacon ipsum dolor amet mollit magna in deserunt culpa nisi. Capicola cow ut, labore dolore consequat in ribeye t-bone fatback ea laborum incididunt bacon adipisicing. Qui pig prosciutto ea excepteur, in laboris tail pariatur cillum aliqua. T-bone porchetta shankle labore, nostrud doner ball tip flank bacon.</p>
@@ -145,256 +118,588 @@
 			</div>
 	
 	<div class="spacer"></div>
-	
-	<!--Blurb 3-->
-			<div class="row">
-				<div class="col-md-6 blurb">
-				<h2>Header</h2>
-					<hr>
-					<p>Spicy jalapeno bacon ipsum dolor amet mollit magna in deserunt culpa nisi. Capicola cow ut, labore dolore consequat in ribeye t-bone fatback ea laborum incididunt bacon adipisicing. Qui pig prosciutto ea excepteur, in laboris tail pariatur cillum aliqua. T-bone porchetta shankle labore, nostrud doner ball tip flank bacon.</p>
-				</div>
-				<div class="col-md-6 noPadding">
-					<img src="./img/placeholder.png" alt="placeholder.yeet" class="blurbImage">
-				</div>
-			</div>
-	
-	<div class="spacer"></div>
-	
-	<!--Blurb 4-->
-			<div class="row">
-				<div class="col-md-6 noPadding">
-					<img src="./img/placeholder.png" alt="placeholder.yeet" class="blurbImage">
-				</div>
-				<div class="col-md-6 blurb">
-				<h2>Header</h2>
-					<hr>
-					<p>Spicy jalapeno bacon ipsum dolor amet mollit magna in deserunt culpa nisi. Capicola cow ut, labore dolore consequat in ribeye t-bone fatback ea laborum incididunt bacon adipisicing. Qui pig prosciutto ea excepteur, in laboris tail pariatur cillum aliqua. T-bone porchetta shankle labore, nostrud doner ball tip flank bacon.</p>
-				</div>
-			</div>
-	
-	<div class="spacer"></div>
-	
-		<div class="row">
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" class="achievementImage" alt="achievement"></a>
-			</div>
-			<div class="col-md-6 text-center">
-				<h2>Lack of Achievements</h2>
-			</div>
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-			</div>
-		</div>
-	
-		<div class="row">
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-			</div>
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-			</div>
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-			</div>
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-			</div>
-		</div>
-	
-		<div class="row">
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-			</div>
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-			</div>
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-			</div>
-			<div class="col-md-3 achievementBlocks">
-				<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-			</div>
-		</div>
-	
-	<div class="spacer"></div>
-	
-	<div class="row">
-		<div class="col-md-6">
-			<img src="./img/potatodalek.jpg" alt="potatodalek">
-		</div>
-		<div class="col-md-6">
-			<h2 class="align-content-center">Robot n Things</h2>
-			<p>Landjaeger beef ribs tri-tip, jerky pork loin jowl bacon. Brisket pork chop pig spare ribs filet mignon pork loin buffalo jowl landjaeger meatloaf shoulder jerky burgdoggen capicola pork. Meatball rump ground round cow tenderloin jerky prosciutto short loin frankfurter pork brisket hamburger flank shank. Bacon frankfurter pork chop bresaola capicola beef ribs. Pork belly ribeye t-bone, fatback boudin pork loin pork chop tail. Bacon rump spare ribs, brisket tri-tip biltong cow buffalo pig drumstick. Bacon pancetta jerky rump tri-tip short ribs.</p>
-		</div>
-	</div>
-	
-		<div class="spacer"></div>
-	
-	<!--Start of Team-->
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h2>Coaches</h2>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-mid-12 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h2>Mentors</h2>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h2>Students</h2>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
 		
-	<div class="row">
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
 	
-	<div class="row">
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h2>Alumni</h2>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-		<div class="col-md-3 achievementBlocks">
-			<a href="#"><img src="./img/placeholder.png" alt="achievement"></a>
-		</div>
-	</div>
+    <div class="spacer"></div>
+
+    <!--START OF AWARDS BLOCK-->
+    <div class="container-fluid">
+        <div class="row ">
+            <!--AWARD 1-->
+            <div class="col-lg col-md-3 noPadding" data-toggle="modal" data-target="#award1">
+                <img src="https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="awards">
+                <div class="awardsImageText">
+                    <h3>Worlds</h3>
+                </div>
+            </div>
+
+            <div id="award1" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="card">
+                            <img src="https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Worlds</h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Years Achieved: 2015, 2016, 2017, 2018</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END AWARD 1-->
+            <!--AWARD 2-->
+            <div class="col-lg col-md-3 noPadding" data-toggle="modal" data-target="#award2">
+                <img src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="awards">
+                <div class="awardsImageText">
+                    <h3>Innovation in Controls</h3>
+                </div>
+            </div>
+
+            <div id="award2" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="card">
+                            <img src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Innovation in Controls</h5>
+                                <p class="card-text">Celebrates an innovative control system or application of control components – electrical, mechanical, or software – to provide unique machine functions.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Years Achieved: 2016, 2017, 2018</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END AWARD 2-->
+            <!--AWARD 3-->
+            <div class="col-lg col-md-3 noPadding" data-toggle="modal" data-target="#award3">
+                <img src="https://images.pexels.com/photos/796206/pexels-photo-796206.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="awards">
+                <div class="awardsImageText">
+                    <h3>State Champion</h3>
+                </div>
+
+                <div id="award3" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="card">
+                                <img src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">State Champion</h5>
+                                    <p class="card-text">CHCA Beak Squad wins 2016 Ohio State FIRST Robotics Competition (FRC) Championship as the Alliance Captain and 1st Place Alliance, remaining undefeated for the entire tournament!</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Years Achieved: 2016, 2018</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END AWARD 3-->
+            <!--AWARD 4-->
+            <div class="col-lg col-md-3 noPadding" data-toggle="modal" data-target="#award4">
+                <img src="https://images.pexels.com/photos/87009/earth-soil-creep-moon-lunar-surface-87009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="awards">
+                <div class="awardsImageText">
+                    <h3>Autonomous Award</h3>
+                </div>
+            </div>
+
+            <div id="award4" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="card">
+                            <img src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Autonomous Award</h5>
+                                <p class="card-text">Celebrates the team that has demonstrated consistent, reliable, high-performance robot operation during autonomously managed actions. Evaluation is based on the robot’s ability to sense its surroundings, position itself or onboard mechanisms appropriately, and execute tasks.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Years Achieved: 2018</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END AWARD 4-->
+            <!--AWARD 5-->
+            <div class="col-lg col-md-3 noPadding" data-toggle="modal" data-target="#award5">
+                <img src="https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="awards">
+                <div class="awardsImageText">
+                    <h3>Finalist</h3>
+                </div>
+				
+				<div id="award5" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="card">
+								<img src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Finalist</h5>
+									<p class="card-text">Celebrates the Alliance that makes it to the final match of the competition.</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">Years Achieved: 2016, 2017, 2017, 2018, 2018</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!--END AWARD 5-->
+            <!--AWARD 6-->
+            <div class="col-lg col-md-3 noPadding" data-toggle="modal" data-target="#award6">
+                <img src="https://images.pexels.com/photos/733475/pexels-photo-733475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="awards">
+                <div class="awardsImageText">
+                    <h3>Industrial Design</h3>
+                </div>
+			
+				<div id="award6" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="card">
+								<img src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Industrial Design</h5>
+									<p class="card-text">Celebrates form and function in an efficiently designed machine that effectively addresses the game challenge.</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">Years Achieved: 2016, 2017</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!--END AWARD 6-->
+            <!--AWARD 7-->
+            <div class="col-lg col-md-3 noPadding" data-toggle="modal" data-target="#award7">
+                <img src="https://images.pexels.com/photos/1376766/nature-milky-way-galaxy-space-1376766.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="awards">
+                <div class="awardsImageText">
+                    <h3>Quality Award</h3>
+                </div>
+				
+				<div id="award7" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="card">
+								<img src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Quality Award</h5>
+									<p class="card-text">Celebrates machine robustness in concept and fabrication.</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">Years Achieved: 2017</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+            <!--END AWARD 7-->
+            <!--AWARD 8-->
+            <div class="col-lg col-md-3 noPadding" data-toggle="modal" data-target="#award8">
+                <img src="https://images.pexels.com/photos/1275413/pexels-photo-1275413.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="awards">
+                <div class="awardsImageText">
+                    <h3>Fed Ex</h3>
+                </div>
+				
+				<div id="award8" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="card">
+								<img src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Fed Ex</h5>
+									<p class="card-text">CHCA Beak Squad takes 1st Place in the 2015 FedEx Innovation Challenge!</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">Years Achieved: 2015</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+            <!--END AWARD 8-->
+
+        </div>
+    </div>
+    <!--END OF AWARDS BLOCK-->
+
+
+    <div class="spacer"></div>
+
+    <!--START OF MEET THE TEAM BLOCK-->
+    <div class="teamHero">
+        <div class="container">
+            <div class="row">
+                <!--Menu for team-->
+                <div class="col-md-2 noPadding">
+                    <ul class="nav flex-column text-center teamMenuNav">
+                        <li class="teamMenuItem captains" role="button" data-toggle="collapse" data-target="#Captains" aria-expanded="true" aria-controls="collapseOne">
+                            <span class="teamMenuLink">
+                                Captains
+                            </span>
+                        </li>
+
+                        <li class="teamMenuItem students" role="button" data-toggle="collapse" data-target="#Students" aria-expanded="true" aria-controls="collapseTwo">
+                            <span class="teamMenuLink">
+                                Students
+                            </span>
+                        </li>
+
+                        <li class="teamMenuItem mentors" role="button" data-toggle="collapse" data-target="#Mentors" aria-expanded="true" aria-controls="collapseThree">
+                            <span class="teamMenuLink">
+                                Mentors
+                            </span>
+                        </li>
+						
+						<li class="teamMenuItem alumni" role="button" data-toggle="collapse" data-target="#Alumni" aria-expanded="true" aria-controls="collapseFour">
+                            <span class="teamMenuLink">
+                                Alumni
+                            </span>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--End of Menu -->
+                <!-- Content for team-->
+                <div id="theTeam" class="col-md-10 accordion">
+                    <!--Captain Block-->
+                    <div class="row">
+                        <div id="Captains" class="collapse show" aria-labelledby="headingOne" data-parent="#theTeam">
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Andy Ciarniello</h3>
+                                        <p>Information about jane doe goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>John Doe</h3>
+                                        <p>Information about jane doe goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Captain Block-->
+                    <!--Start Student Block-->
+                    <div class="row">
+                        <div id="Students" class="collapse" aria-labelledby="headingOne" data-parent="#theTeam">
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Another Person</h3>
+                                        <p>Information about Another person goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Three</h3>
+                                        <p>Information about Person Three goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                        </div>
+                    </div>
+                    <!--End Student Block-->
+					<!--Start Mentors Block-->
+                    <div class="row">
+                        <div id="Mentors" class="collapse" aria-labelledby="headingOne" data-parent="#theTeam">
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Another Person</h3>
+                                        <p>Information about Another person goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Three</h3>
+                                        <p>Information about Person Three goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                        </div>
+                    </div>
+                    <!--End Mentors Block-->
+					<!--Start Alumni Block-->
+                    <div class="row">
+                        <div id="Alumni" class="collapse" aria-labelledby="headingOne" data-parent="#theTeam">
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Another Person</h3>
+                                        <p>Information about Another person goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Three</h3>
+                                        <p>Information about Person Three goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Person Two</h3>
+                                        <p>Information about Person Two goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                        </div>
+                    </div>
+                    <!--End Alumni Block-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--END OF MEET THE TEAM BLOCK-->
+
+    <div class="spacer"></div>
 	
 	<script src="./js/jquery.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
