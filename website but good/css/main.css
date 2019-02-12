@@ -191,3 +191,441 @@ object-fit: cover;
 /*===================================*/
 /*======= END MEDIA QUERIES ==========*/
 /*===================================*/
+
+
+
+/*General Styles*/
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.spacer {
+    height: 60px;
+    /*background-color: #4f3e6b;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);*/
+}
+
+/*a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #72EC28
+}*/
+
+/*BeakSquadNav*/
+.largeText {
+	font-size: 1.5em;
+}
+.mainNav {
+	background-color: #000;
+}
+.mainNav a {
+	color: #fff;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/*BeakSquadNav*/
+
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.heroContent {
+    height: 85vh;
+}
+.heroImage {
+	height: 55vh;
+	
+}
+.flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.heroHeader {
+	font-size: 3.5em;
+}
+
+
+/*Sponsors Ribbon*/
+.sponsors {
+    position: relative;
+    background-color: black;
+}
+
+.sponsorImage {
+    width: 150px;
+    height: 150px;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
+    -moz-box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
+    box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
+}
+.sponsorImageIntelligrated {
+	width: 308px;
+	height: 92px;
+	-webkit-box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
+    -moz-box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
+    box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
+}
+
+.imgLeft1 {position: absolute; top: 0px; left: 10vw; z-index: 1;}
+.imgLeft2 {position: absolute; top: 10px; left: 22vw; z-index: 2;}
+.imgLeft3 {position: absolute;top: 20px;left: 33vw;z-index: 3;}
+.imgCenterMain {position: absolute; top: 30px; margin-left: auto; margin-right: auto; left:0; right:0; z-index: 4;}
+.imgRight3 {position: absolute;top: 20px;right: 33vw;z-index: 3;}
+.imgRight2 {position: absolute;top: 10px;right: 22vw;z-index: 2;}
+.imgRight1 {position: absolute; top: 0px; right: 10vw; z-index: 1;}
+
+/*End Sponsors Ribbon*/
+
+/*Upcoming Events*/
+.youtubeVideo {
+	width: 71%;
+	height: 75%;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+}
+.blurb {
+	padding-top: 7vh;
+	padding-bottom: 7vh;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.blurbImage {
+	display: flex;
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+}
+
+
+/*====AWARD STYLES====*/
+.awards {
+width:100%;
+height:200px;
+object-fit: cover;
+}
+
+.awardsImageText {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/*====TEAM STYLES====*/
+.teamHero {
+    width: 100vw;
+    padding: 20vh 0px 20vh 0px ;
+    display: flex;
+    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Team Menu*/
+.teamMenuItem {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.teamMenuLink {
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+.teamMenuNav li:hover {
+    background-color: blue;
+}
+
+
+.mentors {
+    background-color: #4CFFA5;
+}
+
+.captains {
+    background-color: #267F53;
+}
+
+.students {
+    background-color: #00CC66;
+}
+.alumni {
+	background-color: springgreen;
+}
+
+/*profiles*/
+.profilePicture {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profileText {
+    padding: 1.2em;
+}
+
+.profileBlock {
+    margin-bottom: 5px;
+    background-color: #000000a8;
+    color: white;
+}
+
+
+/*Robot Interaction*/
+.interactiveRobotScenario {
+    /*background-color: #cccccc;*/
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23500778' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.partImage {
+    width: 100%;
+    height: 400px;
+    object-fit: scale-down;
+}
+
+.partOverview {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+    div.scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+    }
+
+        div.scrollmenu a:hover {
+            background-color: #777;
+        }
+
+
+
+.pn-ProductNav_Wrapper {
+    position: relative;
+    padding: 0 11px;
+    box-sizing: border-box;
+}
+
+.pn-ProductNav {
+    /* Make this scrollable when needed */
+    overflow-x: auto;
+    /* We don't want vertical scrolling */
+    overflow-y: hidden;
+    /* For WebKit implementations, provide inertia scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* We don't want internal inline elements to wrap */
+    white-space: nowrap;
+    /* If JS present, let's hide the default scrollbar */
+    /* positioning context for advancers */
+    position: relative;
+    font-size: 0;
+}
+
+.js .pn-ProductNav {
+    /* Make an auto-hiding scroller for the 3 people using a IE */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* Remove the default scrollbar for WebKit implementations */
+}
+
+    .js .pn-ProductNav::-webkit-scrollbar {
+        display: none;
+    }
+
+.pn-ProductNav_Contents {
+    float: left;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    position: relative;
+}
+
+.pn-ProductNav_Contents-no-transition {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.pn-ProductNav_Link {
+    text-decoration: none;
+    /*color: #cdcdcd;*/
+    font-size: 1.2rem;
+    font-family: -apple-system, sans-serif;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 44px;
+    border: 1px solid transparent;
+    padding: 0 11px;
+}
+
+    .pn-ProductNav_Link + .pn-ProductNav_Link {
+        border-left-color: #eee;
+    }
+
+    .pn-ProductNav_Link[aria-selected="true"] {
+        color: #72EC28;
+    }
+
+.pn-Advancer {
+    /* Reset the button */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    padding: 0;
+    border: 0;
+    /* Now style it as needed */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* Set the buttons invisible by default */
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+    .pn-Advancer:focus {
+        outline: 0;
+    }
+
+    .pn-Advancer:hover {
+        cursor: pointer;
+    }
+
+.pn-Advancer_Left {
+    left: 0;
+}
+
+[data-overflowing="both"] ~ .pn-Advancer_Left, [data-overflowing="left"] ~ .pn-Advancer_Left {
+    opacity: 1;
+}
+
+.pn-Advancer_Right {
+    right: 0;
+}
+
+[data-overflowing="both"] ~ .pn-Advancer_Right, [data-overflowing="right"] ~ .pn-Advancer_Right {
+    opacity: 1;
+}
+
+.pn-Advancer_Icon {
+    width: 20px;
+    height: 44px;
+    fill: #bbb;
+}
+
+.pn-ProductNav_Indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100px;
+    background-color: transparent;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    transition: background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, background-color .2s ease-in-out;
+    transition: transform .2s ease-in-out, background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+/*Robot Interaction*/
+
+/*Footer*/
+
+.footer {
+    height: 40vh;
+    background-color: #4f3e6b;
+    padding: 10vw;
+    color: white;
+}
+
+
+/*-===================-*/
+/*-===Media Queries====-*/
+/*-===================-*/
+
+/* xs */
+@media screen and (max-width: 767px) {
+
+    .awards {
+        height: 100px;
+    }
+
+    .imgLeft2 {position: absolute;top: 10px;left: 2vw;z-index: 2;}
+    .imgLeft3 {position: absolute;top: 20px;left: 17vw;z-index: 3;}
+    .imgCenterMain {position: absolute;top: 30px;margin-left: auto;margin-right: auto;left: 0;right: 0;z-index: 4;}
+    .imgRight3 {position: absolute;top: 20px;right: 17vw;z-index: 3;}
+    .imgRight2 {position: absolute;top: 10px;right: 2vw;z-index: 2;}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+
+    /*.imgLeft1 {position: absolute;top: 0px;left: 10vw;z-index: 1;}
+    .imgLeft2 {position: absolute;top: 10px;left: 10vw;z-index: 2;}
+    .imgLeft3 {position: absolute;top: 20px;left: 20vw;z-index: 3;}
+    .imgCenterMain {position: absolute;top: 30px;margin-left: auto;margin-right: auto;left: 0;right: 0;z-index: 4;}
+    .imgRight3 {position: absolute;top: 20px;right: 20vw;z-index: 3;}
+    .imgRight2 {position: absolute;top: 10px;right: 10vw;z-index: 2;}
+    .imgRight1 {position: absolute;top: 0px;right: 10vw;z-index: 1;}*/
+
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+}
+
+
+/* lg */
+@media screen and (min-width: 1200px) {
+}
+
+/*===================================*/
+/*======= END MEDIA QUERIES ==========*/
+/*===================================*/
