@@ -1,199 +1,9 @@
-/*BeakSquadNav*/
-.largeText {
-	font-size: 1.5em;
-}
-.mainNav {
-	background-color: #000;
-}
-.mainNav a {
-	color: #fff;
-}
-.hero {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	background-image: url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg");	
-	background-size: cover;
-	background-position: center center;
-}
-.heroContent {
-	height: 100vh;
-}
-.heroImage {
-	height: 55vh;
-	
-}
-.flexCenter {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.heroHeader {
-	font-size: 3.5em;
-}
-.heroSponsor {
-	width: 130px;
-}
-.honeywell {
-	height: 100px;
-}
-.sponsorShadow {
-	background-color: rgba(255, 255, 255, 0.3);
-}
-.youtubeVideo {
-	width: 71%;
-	height: 75%;
-	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-}
-.blurb {
-	padding-top: 10vh;
-	padding-bottom: 10vh;
-	padding-left: 2em;
-	padding-right: 2em;
-}
+
 .spacer {
-	height: 20px;
-	background-color: #4f3e6b;
-	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+	height: 10px;
+	background-color: /*#4f3e6b*/fff;
+	/*box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);*/
 }
-.blurbImage {
-	display: flex;
-	width: 100%;
-	height:100%;
-	object-fit: cover;
-}
-.noPadding {
-	padding: 0;
-}
-.teamBlock {
-	height: 200px;
-}
-.shadowClick:checked {
-	box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.25);
-}
-.btn-group-toggle:checked {
-		box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-}
-/*==================*/
-/*====AWARD STYLES====*/
-/*==================*/
-
-.awards {
-width:100%;
-height:200px;
-object-fit: cover;
-}
-
-.awardsImageText {
-    position: absolute;
-    right: 15%;
-    bottom: 20px;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-}
-
-/*==================*/
-/*====TEAM STYLES====*/
-/*==================*/
-
-.teamHero {
-    width: 100vw;
-    display: flex;
-    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
-    background-size: cover;
-    background-position: center center;
-}
-
-/*Menu*/
-.teamMenuItem {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-}
-
-.teamMenuLink {
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: block;
-}
-
-.teamMenuNav li:hover {
-    background-color: blue;
-}
-
-
-.mentors {
-    background-color: #4CFFA5;
-}
-
-.captains {
-    background-color: #267F53;
-}
-
-.students {
-    background-color: #00CC66;
-}
-.alumni {
-	background-color: springgreen;
-}
-
-/*profiles*/
-.profilePicture {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.profileText {
-    padding: 1.2em;
-}
-
-.profileBlock {
-    margin-bottom: 5px;
-    background-color: #000000a8;
-    color: white;
-}
-
-
-/*-===================-*/
-/*-===Media Queries====-*/
-/*-===================-*/
-
-/* xs */
-@media screen and (max-width: 767px) {
-
-    .awards {
-        height: 100px;
-    }
-}
-
-/* sm */
-@media screen and (min-width: 768px) {
-
-}
-
-/* md */
-@media screen and (min-width: 992px) {
-
-}
-
-
-/* lg */
-@media screen and (min-width: 1200px) {
-
-
-}
-
-/*===================================*/
-/*======= END MEDIA QUERIES ==========*/
-/*===================================*/
-
-
-
 /*General Styles*/
 
 html, body {
@@ -203,12 +13,6 @@ html, body {
 
 .noPadding {
     padding: 0;
-}
-
-.spacer {
-    height: 60px;
-    /*background-color: #4f3e6b;
-	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);*/
 }
 
 /*a {
@@ -291,28 +95,36 @@ a:hover {
 }
 
 .imgLeft1 {position: absolute; top: 0px; left: 10vw; z-index: 1;}
-.imgLeft2 {position: absolute; top: 10px; left: 22vw; z-index: 2;}
+.imgLeft2 {position: absolute; top: 0px; left: 22vw; z-index: 2;}
 .imgLeft3 {position: absolute;top: 20px;left: 33vw;z-index: 3;}
-.imgCenterMain {position: absolute; top: 30px; margin-left: auto; margin-right: auto; left:0; right:0; z-index: 4;}
+.imgCenterMain {position: absolute; top: 0px; margin-left: auto; margin-right: auto; left:0; right:0; z-index: 4;}
 .imgRight3 {position: absolute;top: 20px;right: 33vw;z-index: 3;}
-.imgRight2 {position: absolute;top: 10px;right: 22vw;z-index: 2;}
+.imgRight2 {position: absolute;top: 0px;right: 22vw;z-index: 2;}
 .imgRight1 {position: absolute; top: 0px; right: 10vw; z-index: 1;}
 
 /*End Sponsors Ribbon*/
 
 /*Upcoming Events*/
-.youtubeVideo {
-	width: 71%;
-	height: 75%;
-	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+.updateHero {
+	width: 100vw;
+    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	color: springgreen;
 }
 .blurb {
-	padding-top: 7vh;
-	padding-bottom: 7vh;
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	background-color: #000000a8;
+    color: white;
 }
-
+.blurbVideo {
+	width: 70%;
+	height: 400px;
+	object-fit: scale-down;
+}
 .blurbImage {
 	display: flex;
 	width: 100%;
@@ -592,7 +404,10 @@ div.scrollmenu {
 
 /* xs */
 @media screen and (max-width: 767px) {
-
+	.blurbVideo {
+		height: 300px;
+	}
+	
     .awards {
         height: 100px;
     }
