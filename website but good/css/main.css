@@ -18,7 +18,15 @@ html, body {
 .noPadding {
     padding: 0;
 }
-
+.sponsorsHero {
+	width: 100vw;
+    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	color: springgreen;
+}
 /*a {
     color: white;
     text-decoration: none;
@@ -75,7 +83,9 @@ a:hover {
 .heroHeader {
 	font-size: 3.5em;
 }
-
+.smallImg {
+	width: 40%;
+}
 
 /*Sponsors Ribbon*/
 .sponsors {
