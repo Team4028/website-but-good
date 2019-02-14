@@ -1,7 +1,7 @@
 
 .spacer {
 	height: 10px;
-	background-color: /*#4f3e6b*/fff;
+	background-color: fff;
 	/*box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);*/
 }
 .spacerPurple {
@@ -39,10 +39,13 @@ a:hover {
 
 /*BeakSquadNav*/
 .largeText {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 .mainNav {
 	background-color: #000;
+}
+#beaksquadMenu {
+	font-size: 1.15em;
 }
 .mainNav a {
 	color: #fff;
@@ -63,18 +66,21 @@ a:hover {
     width: 100vw;
     height: 100vh;
     display: flex;
-    background-image: url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg");
+    background-image: url("https://images.pexels.com/photos/755726/pexels-photo-755726.jpeg?cs=srgb&dl=astronomy-astrophotography-colors-755726.jpg&fm=jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .heroContent {
-    height: 85vh;
+    height: 100vh;
 }
 .heroImage {
 	height: 55vh;
-	
 }
+.heroImageButBetter {
+	height: 75vh;
+}
+
 .flexCenter {
 	display: flex;
 	justify-content: center;
