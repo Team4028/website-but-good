@@ -25,17 +25,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-	color: springgreen;
 }
-/*a {
-    color: white;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-a:hover {
-    color: #72EC28
-}*/
 
 /*BeakSquadNav*/
 .largeText {
@@ -296,7 +286,7 @@ object-fit: cover;
 /*====TEAM STYLES====*/
 .teamHero {
     width: 100vw;
-    padding: 10vh 0px 10vh 0px ;
+    padding: 2vh 0px 2vh 0px ;
     display: flex;
     background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
     background-attachment: fixed;
@@ -532,12 +522,14 @@ div.scrollmenu {
 /*Footer*/
 
 .footer {
-    height: 40vh;
-    background-color: #4f3e6b;
-    padding: 10vw;
+    padding: 20px;
     color: white;
+    background: #3b2168;
+    background: -moz-linear-gradient(top, #3b2168 0%, #1d1626 100%);
+    background: -webkit-linear-gradient(top, #3b2168 0%,#1d1626 100%);
+    background: linear-gradient(to bottom, #3b2168 0%,#1d1626 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b2168', endColorstr='#1d1626',GradientType=0 );
 }
-
 
 /*-===================-*/
 /*-===Media Queries====-*/
