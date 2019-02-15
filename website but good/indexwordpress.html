@@ -292,7 +292,7 @@
     <div id="swipeable" class="carousel awardHero">
         <h1 class="text-white text-center">Our Achievements</h1>
         <!--START ITEM-->
-        <div class="slide bsOrder1" indexNumber="1">
+        <div class="slide bsOrder1" indexNumber="1" data-toggle="modal" data-target="#award1">
             <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/WorldsThumb.png" alt="test" class="awardimage">
             <div class="awardBlurb">
                 <h5>Worlds</h5>
@@ -320,7 +320,7 @@
 
         <!--END ITEM-->
         <!--START ITEM-->
-        <div class="slide bsOrder2" indexNumber="2">
+        <div class="slide bsOrder2" indexNumber="2" noPadding" data-toggle="modal" data-target="#award2">
             <img class="awardimage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/InnovationInControlsThumb.png">
             <div class="awardBlurb">
                 <h5>Innovation in Controls</h5>
@@ -347,7 +347,7 @@
         </div>
         <!--END ITEM-->
         <!--START ITEM-->
-        <div class="slide bsOrder3" indexNumber="3">
+        <div class="slide bsOrder3" indexNumber="3" data-toggle="modal" data-target="#award3">
             <img class="awardimage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/StatesThumb.png">
             <div class="awardBlurb">
                 <h5>State Champion</h5>
@@ -355,9 +355,26 @@
                 <button type="button" class="btn btn-outline-primary">Learn More</button>
             </div>
         </div>
+        <!-- Award Modal -->
+                <div id="award3" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="card">
+                                <img src="./img/States.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">State Champion</h5>
+                                    <p class="card-text">CHCA Beak Squad wins 2016 Ohio State FIRST Robotics Competition (FRC) Championship as the Alliance Captain and 1st Place Alliance, remaining undefeated for the entire tournament!</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Years Achieved: 2016, 2018</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <!--END ITEM-->
         <!--START ITEM-->
-        <div class="slide bsOrder4" indexNumber="4">
+        <div class="slide bsOrder4" indexNumber="4" data-toggle="modal" data-target="#award4">
             <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/AutonThumb.png" alt="test" class="awardimage">
             <div class="awardBlurb">
                 <h5>Autonomous Award</h5>
@@ -365,45 +382,131 @@
                 <button type="button" class="btn btn-outline-primary">Learn More</button>
             </div>
         </div>
+        <!-- Award Modal -->
+            <div id="award4" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="card">
+                            <img src="./img/Auton.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Autonomous Award</h5>
+                                <p class="card-text">Celebrates the team that has demonstrated consistent, reliable, high-performance robot operation during autonomously managed actions. Evaluation is based on the robot’s ability to sense its surroundings, position itself or onboard mechanisms appropriately, and execute tasks.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Years Achieved: 2018</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <!--END ITEM-->
         <!--START ITEM-->
-        <div class="slide bsOrder5" indexNumber="5">
+        <div class="slide bsOrder5" indexNumber="5" data-toggle="modal" data-target="#award5">
             <img class="awardimage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/FinalistThumb.png">
             <div class="awardBlurb">
                 <h5>Finalist</h5>
-                <p>blurb here</p>
+                <p>Celebrates the Alliance that makes it to the final match of the competition.</p>
                 <button type="button" class="btn btn-outline-primary">Learn More</button>
             </div>
         </div>
+        <!-- Award Modal -->
+                <div id="award5" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="card">
+                                <img src="./img/Finalist.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Finalist</h5>
+                                    <p class="card-text">Celebrates the Alliance that makes it to the final match of the competition.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Years Achieved: 2016, 2017, 2017, 2018, 2018</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <!--END ITEM-->
         <!--START ITEM-->
-        <div class="slide bsOrder6" indexNumber="6">
+        <div class="slide bsOrder6" indexNumber="6" data-toggle="modal" data-target="#award6">
             <img class="awardimage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/IndustrialThumb.png">
             <div class="awardBlurb">
                 <h5>Industrial Design</h5>
-                <p>blurb here</p>
+                <p>Celebrates form and function in an efficiently designed machine that effectively addresses the game challenge.</p>
                 <button type="button" class="btn btn-outline-primary">Learn More</button>
             </div>
         </div>
+        <!-- Award Modal -->
+                <div id="award6" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="card">
+                                <img src="./img/Industrial.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Industrial Design</h5>
+                                    <p class="card-text">Celebrates form and function in an efficiently designed machine that effectively addresses the game challenge.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Years Achieved: 2016, 2017</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <!--END ITEM-->
-        <div class="slide bsOrder7" indexNumber="7">
+        <div class="slide bsOrder7" indexNumber="7" data-toggle="modal" data-target="#award7">
             <img class="awardimage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/QualityThumb.png">
             <div class="awardBlurb">
                 <h5>Quality Award</h5>
-                <p>Blurb here</p>
+                <p>Celebrates machine robustness in concept and fabrication.</p>
                 <button type="button" class="btn btn-outline-primary">Learn More</button>
             </div>
         </div>
+        <!-- Award Modal -->
+                <div id="award7" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="card">
+                                <img src="./img/Quality.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Quality Award</h5>
+                                    <p class="card-text">Celebrates machine robustness in concept and fabrication.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Years Achieved: 2017</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <!--END ITEM-->
         <!--END ITEM-->
-        <div class="slide bsOrder8" indexNumber="8">
+        <div class="slide bsOrder8" indexNumber="8" data-toggle="modal" data-target="#award8">
             <img class="awardimage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/FedExThumb.png">
             <div class="awardBlurb">
                 <h5>FedEx</h5>
-                <p>Blurb here</p>
+                <p>CHCA Beak Squad takes 1st Place in the 2015 FedEx Innovation Challenge!</p>
                 <button type="button" class="btn btn-outline-primary">Learn More</button>
             </div>
+
         </div>
+        <!-- Award Modal -->
+                <div id="award8" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="card">
+                                <img src="./img/FedEx.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fed Ex</h5>
+                                    <p class="card-text">CHCA Beak Squad takes 1st Place in the 2015 FedEx Innovation Challenge!</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Years Achieved: 2015</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <!--END ITEM-->
         <input id="Next Item" class="nextAwardButton" type="button" value=">" onclick="incrementSlider('left');">
         <input id="Prev Item" class="prevAwardButton" type="button" value="<" onclick="incrementSlider('right');">
@@ -776,32 +879,32 @@
     </div>
     <!--END OF MEET THE TEAM BLOCK-->  
 
-<div class="sponsorsHero" id="Sponsors">
-    <div class="col-md-12 flexCenter ">Soaring Sponsors</div>
+<div class="container-fluid sponsorsHero" id="Sponsors">
+    <div class="col-md-12 flexCenter "><h2>Soaring Sponsors</h2></div>
     <div class="row">
         <div class="col-md-4">
-            <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/mikes-nashville-hot.png" alt="Mike's Nashville Hot">
+            <img class="sponsorImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/mikes-nashville-hot.png" alt="Mike's Nashville Hot">
         </div>
         <div class="col-md-4">
-            <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/intelligrated.png" alt="Honeywell Intelligrated">
+            <img class="sponsorImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/intelligrated.png" alt="Honeywell Intelligrated">
         </div>
         <div class="col-md-4">
-            <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/philipsedison.jpg" alt="Philips Edison">
+            <img class="sponsorImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/philipsedison.jpg" alt="Philips Edison">
         </div>
     </div>
-    <div class="col-md-12 flexCenter">Golden Sponsors</div>
-    <div class="row">
-        <div class="col-md-6">
-            <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Ethicon.png" alt="Ethicon">
-        </div>
-    </div>
+    <div class="col-md-12 flexCenter"><h2>Golden Sponsors</h2></div>
     <div class="row">
         <div class="col-md-6">
-            <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/MSA-logo.png" alt="MSA Architects">
+            <img class="sponsorImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Ethicon.png" alt="Ethicon">
         </div>
-    </div>
-</div>
 
+        <div class="col-md-6">
+            <img class="sponsorImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/MSA-logo.png" alt="MSA Architects">
+        </div>
+    </div>
+
+</div>
+<!-- Footer -->
 <div class="container-fluid footer">
         <div class="row">
             <div class="col-md-3 flexCenter">

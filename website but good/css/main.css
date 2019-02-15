@@ -20,7 +20,8 @@ html, body {
 }
 .sponsorsHero {
 	width: 100vw;
-    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+/*    background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/   
+    background-color: lightgrey;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
