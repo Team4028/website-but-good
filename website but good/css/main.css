@@ -95,32 +95,17 @@ a:hover {
 
 /*Sponsors Ribbon*/
 .sponsors {
-    position: relative;
-    background-color: black;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 170px;
+    background-color: white;
 }
 
 .sponsorImage {
-    width: 150px;
-    height: 150px;
-    -webkit-box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
-    -moz-box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
-    box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
+    width:100%;
+    height:100px;
+    object-fit: scale-down;
 }
-.sponsorImageIntelligrated {
-	width: 308px;
-	height: 92px;
-	-webkit-box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
-    -moz-box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
-    box-shadow: 0px 0px 11px 1px rgba(194,194,194,0.54);
-}
-
-.imgLeft1 {position: absolute; top: 0px; left: 10vw; z-index: 1;}
-.imgLeft2 {position: absolute; top: 0px; left: 22vw; z-index: 2;}
-.imgLeft3 {position: absolute;top: 20px;left: 33vw;z-index: 3;}
-.imgCenterMain {position: absolute; top: 0px; margin-left: auto; margin-right: auto; left:0; right:0; z-index: 4;}
-.imgRight3 {position: absolute;top: 20px;right: 33vw;z-index: 3;}
-.imgRight2 {position: absolute;top: 0px;right: 22vw;z-index: 2;}
-.imgRight1 {position: absolute; top: 0px; right: 10vw; z-index: 1;}
 
 /*End Sponsors Ribbon*/
 
@@ -152,8 +137,24 @@ a:hover {
 	object-fit: cover;
 }
 
+.updates {
+    margin-bottom: 5px;
+    background-color: #000000a8;
+}
+
 
 /*====AWARD STYLES====*/
+
+.awardHero {
+    width: 100vw;
+    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
 .awards {
 width:100%;
 height:200px;
@@ -172,10 +173,130 @@ object-fit: cover;
     text-align: center;
 }
 
+.carousel {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            position: relative;
+            height: 620px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .nextAwardButton {
+            position: absolute; /* or absolute */
+            top: 50%;
+            right: 0%;
+            z-index: 30;
+        }
+
+        .prevAwardButton {
+            position: absolute; /* or absolute */
+            top: 50%;
+            left: 0%;
+            z-index: 30;
+        }
+
+        .bsOrder1 {
+            left: calc(50% + 792px);
+            y: 0;
+            opacity: 0;
+            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+            transform: scale(0.9);
+        }
+
+        .bsOrder2 {
+            left: calc(50% + 500px);
+            y: 0;
+            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+            transform: scale(0.95);
+        }
+
+        .bsOrder3 {
+            left: calc(50% + 194px);
+            y: 0;
+            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+            opacity: 1.0;
+            transform: scale(1);
+        }
+
+        .bsOrder4 {
+            left: calc(50% - 141px);
+            y: 0;
+            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+            opacity: 1.0;
+            width: 283px;
+            height: 430px;
+        }
+
+        .bsOrder5 {
+            left: calc(50% - 456px);
+            y: 0;
+            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+            opacity: 1.0;
+            transform: scale(1);
+        }
+
+        .bsOrder6 {
+            left: calc(50% - 760px);
+            y: 0;
+            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+            transform: scale(0.95);
+        }
+
+        .bsOrder7 {
+            left: calc(50% - 1054px);
+            y: 0;
+            opacity: 0;
+            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+            transform: scale(0.9);
+        }
+
+        .bsOrder8 {
+            left: calc(50% - 1054px);
+            y: 0;
+            opacity: 0;
+            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+            transform: scale(0.9);
+        }
+
+        .slide {
+            width: 262px;
+            height: 450px;
+            position: absolute;
+            overflow: hidden;
+            background-color: lightgray;
+            text-align: center;
+            border-radius: 5px;
+            /*Hover Transition*/
+            transition: all .2s ease-in-out;
+
+                        /*Shadows*/
+            box-shadow: -2px 31px 48px -15px rgba(0,0,0,0.48);
+            -webkit-box-shadow: -2px 31px 48px -15px rgba(0,0,0,0.48);
+            -moz-box-shadow: -2px 31px 48px -15px rgba(0,0,0,0.48);
+        }
+
+        .slide:hover {
+                transform: scale(1.05);
+                z-index: 20;
+        }
+
+
+
+        .awardimage {
+            width: 100%;
+            height: 200px;
+            object-fit: fill;
+        }
+
+        .awardBlurb {
+            padding: 10px;
+        }
+
 /*====TEAM STYLES====*/
 .teamHero {
     width: 100vw;
-    padding: 20vh 0px 20vh 0px ;
+    padding: 10vh 0px 10vh 0px ;
     display: flex;
     background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
     background-attachment: fixed;
