@@ -38,10 +38,10 @@
         <div class="container-fluid">
             <div class="row heroContent">
                 <div class="col-md-6 flexCenter">
-                    <img class="heroImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/EclipseOverview.png" alt="Eclipse Robot">
+                    <img class="heroImageButBetter" src="./img//MonochromeBeakSquadLogo.svg" alt="The Beak Squad">
                 </div>
                 <div class="col-md-6 flexCenter text-white">
-                    <img class="heroImageButBetter" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/headerThing.png" alt="Headerthingy.jpeg">
+                    <img class="heroImage" src="./img/logo-deep-space.svg" alt="Destination Deep Space">
                 </div>
             </div>
         </div>
@@ -51,19 +51,65 @@
     <div class="container-fluid sponsors">
         <div class="row">
             <div class="col-md-12"><h3 class="text-center">Powered By</h3></div>
-            <div class="col-3 flexCenter">
+            <div href="@sponsor1" class="col-3 flexCenter">
                 <img class="sponsorImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/mikes-nashville-hot.png" alt="(Sponsor Here)">
             </div>
-            <div class="col-6 flexCenter">
-                <img class="sponsorImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/intelligrated.png" alt="(Sponsor Here)">
+			
+			<div id="sponsor1" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="card">
+                        <img src="./img/Worlds.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Worlds</h5>
+                            <p class="card-text"></p>
+						</div>
+                    </div>
+                </div>
             </div>
-            <div class="col-3 flexCenter">
+        </div>
+			
+            <a href="#sponsor2" class="col-6 flexCenter">
+                <img class="sponsorImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/intelligrated.png" alt="(Sponsor Here)">
+            </a>
+			
+			<div id="sponsor2" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="card">
+                        <img src="./img/Worlds.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Worlds</h5>
+                            <p class="card-text"></p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+			
+            <div href="#sponsor3" class="col-3 flexCenter">
                 <img class="sponsorImage" src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/philipsedison.jpg" alt="(Sponsor Here)">
             </div>
+			
+			<div id="sponsor3" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="card">
+                        <img src="./img/Worlds.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Worlds</h5>
+                            <p class="card-text"></p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+			
         </div>
     </div>
 
-	<div class="updateHero" id="Updates">
+	<div class="spacer" id="Updates"></div>
+	<div class="updateHero">
 	<div class="spacer"></div>
 	<div class="spacer"></div>
 	<div class="spacer"></div>
@@ -118,7 +164,7 @@
                         <a></a><h2> <a href ="https://www.miamivalleyfirst.com/" target="_blank">Miami Valley Regional</a></h2><a href="https://goo.gl/maps/XwvUkG4FN7S2" target="_blank">Directions (map)</a>
 						<br><a>March 7-9 2019</a>
 						<hr>
-						<p>The Beak Squad will be competing at Miami over an intense weekend of excitement, energy, and competition.</p>
+						<p class="font-italic">"There's a competitive atmosphere where everyone is simultaneously fiercely loyal to their team, but also very supportive of other teams." ~Nathan</p>
 						<hr>
                     </div>
                 </div>
@@ -137,7 +183,7 @@
                     <div class="col-md-6  blurb largeText">
 						<h2><a href="http://www.oai.org/firstbuckeye/" target="_blank">Buckeye Regional</a></h2><a href="https://goo.gl/maps/fu5KymAxWo32" target="_blank">Directions (map)</a><br><a>March 28-30 2019</a>
 						<hr>
-						<p>Over 1500 local and international high school students, including the Beak Squad, will compete in an intense three-day event showcasing robots they designed, built and programmed.</p>
+						<p class="font-italic">"Seeing the culmination of all our teams hard work out on the field is such and extraordinary feeling." ~Alex</p>
 						<hr>
                     </div>
                 </div>
@@ -145,6 +191,8 @@
 	</div>
 	
     <div class="spacer" id="RobotSpecs"></div>
+	<div class="spacer"></div>
+	<div class="spacer"></div>
 	<div class="spacer"></div>
 	<div class="spacer"></div>
 	<div class="spacer"></div>
@@ -228,6 +276,13 @@
                         <div class="col-md-5 partOverview">
                             <h3>Elevator</h3>
                             <p>
+								<ul>
+									<li>Cascading elevator <br>
+								  	Can push up to 6.79 feet in 1.5 seconds <br>
+								•	Motion profile control <br>
+								•	Can stack two cubes on the scale in autonomous period <br>
+								•	Can stack 2 cubes high on a losing scale</li>
+								</ul>
                                 •	Cascading elevator <br>
 								•	Can push up to 6.79 feet in 1.5 seconds <br>
 								•	Motion profile control <br>
@@ -247,8 +302,10 @@
                         <div class="col-md-5 partOverview">
                             <h3>Cube Handler</h3>
                             <p>
-								•	Can pick up cubes in both orientations <br>
-								•	Can launch or drop cubes
+								<ul>
+									<li>Can pick up cubes in both orientations</li>
+									<li>Can launch or drop cubes</li>
+								</ul>
                             </p>
                         </div>
                     </div>
@@ -263,11 +320,15 @@
                         <div class="col-md-5 partOverview">
                             <h3>Drivetrain</h3>
                             <p>
-								•	6 wheel drive <br>
-								    o	2 Omni Wheels <br>
-									o	4 Traction Wheels <br>
-								•	Geared for a max. speed of  15 FPS
+								<ul>
+									<li>6 Wheel Drive</li>
+									<ul>
+										<li>2 Omni Wheels</li>
+										<li>4 Traction Wheels</li>
+									</ul>
+							</ul>
                             </p>
+									<li>Geared for a max. speed of  15 FPS</li>
                         </div>
                     </div>
                     <!--END Part #5-->
@@ -316,6 +377,7 @@
             </div>
         </div>
         <div class="spacer" id="Achievements"></div>
+		<div class="spacer"></div>
 		<div class="spacer"></div>
 		<div class="spacer"></div>
 		<div class="spacer"></div>
@@ -466,7 +528,7 @@
                         <div class="card">
                             <img src="./img/Auton.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Autonomous Award</h5>
+                                <h5 class="card-title">Autonomous Award Sponsored by Ford, Awarded at Worlds</h5>
                                 <p class="card-text">Celebrates the team that has demonstrated consistent, reliable, high-performance robot operation during autonomously managed actions. Evaluation is based on the robot’s ability to sense its surroundings, position itself or onboard mechanisms appropriately, and execute tasks.</p>
                             </div>
                         </div>
@@ -525,18 +587,22 @@
         <!--END ITEM-->
         <input id="Next Item" class="nextAwardButton" type="button" value=">" onclick="incrementSlider('left');">
         <input id="Prev Item" class="prevAwardButton" type="button" value="<" onclick="incrementSlider('right');">
-    </div>
-
 	<div class="spacer" id="Team"></div>
 	<div class="spacer"></div>
 	<div class="spacer"></div>
 	<div class="spacer"></div>
+	<div class="spacer"></div>
+	<div class="spacer"></div>    
+</div>
+
+	
 	
 	
     <!--START OF MEET THE TEAM BLOCK-->
     <div class="teamHero doNotFullyCollapse">
         <div class="container">
              <h1 class="text-white text-center">Meet the Team</h1>
+			<div class="spacer"></div>
 			<div class="spacer"></div>
             <div class="row">
                 <!--Menu for team-->
@@ -548,12 +614,24 @@
                             </span>
                         </li>
 
-                        <li class="teamMenuItem students" role="button" data-toggle="collapse" data-target="#Students" aria-expanded="true" aria-controls="collapseTwo">
+						<li class="teamMenuItem mechanical" role="button" data-toggle="collapse" data-target="#Mechanical" aria-expanded="true" aria-controls="collapseThree">
                             <span class="teamMenuLink">
-                                Students
+                               Mechanical
+                            </span>
+                        </li>
+						
+                        <li class="teamMenuItem controls" role="button" data-toggle="collapse" data-target="#Controls" aria-expanded="true" aria-controls="collapseTwo">
+                            <span class="teamMenuLink">
+                                Controls
                             </span>
                         </li>
 
+						<li class="teamMenuItem businessbranding" role="button" data-toggle="collapse" data-target="#BusinessBranding" aria-expanded="true" aria-controls="collapseThree">
+                            <span class="teamMenuLink">
+                                Business and Branding
+                            </span>
+                        </li>
+						
                         <li class="teamMenuItem mentors" role="button" data-toggle="collapse" data-target="#Mentors" aria-expanded="true" aria-controls="collapseThree">
                             <span class="teamMenuLink">
                                 Mentors
@@ -581,11 +659,11 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Donahue-Nick.png" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
-                                        <h3>Nick Donahue</h3>
+                                        <h3>Nick Donahue - 2019</h3>
                                         <p class="font-italic">"I have learned valuable communications and technical skills with the Beak Squad. It has given me an avenue to utilize everything I was learning in class in a real-world setting. Additionally, it me how to be a leader, helping everyone achieve their goals."</p>
                                     </div>
                                 </div>
@@ -596,11 +674,11 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Bruns-Patrick-.png" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
-                                        <h3>Patrick Bruns</h3>
+                                        <h3>Patrick Bruns 2019</h3>
                                         <p class="font-italic">Information about jane doe goes here.</p>
                                     </div>
                                 </div>
@@ -608,20 +686,20 @@
                         </div>
                     </div>
                     <!--End Captain Block-->
-                    <!--Start Student Block-->
+                    <!--Start Mechanical Block-->
                     <div class="row">
-                        <div id="Students" class="collapse" aria-labelledby="headingOne" data-parent="#theTeam">
+                        <div id="Mechanical" class="collapse" aria-labelledby="headingOne" data-parent="#theTeam">
                             <!--Person Block-->
                             <div class="col-12 noPadding profileBlock">
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Guerrerro-Eric.png" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
-                                        <h3>Abigail Friedstrom</h3>
-                                        <p class="font-italic">"I don't think there's one specific experience that has had the impact on me. Joining the team in general has greatly changed me. My focus, my interests, my work ethic, friend group, a lot has changed/impacted me by joining this team. I have a solid friend group, I've found that my passion is STEM, my work ethic/time management is better, and overall I am a better person."</p>
+                                        <h3>Eric Guerrero 2019</h3>
+                                        <p class="font-italic">""</p>
                                     </div>
                                 </div>
                             </div>
@@ -631,11 +709,413 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/McDonough-Ryan.png" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
-                                        <h3>Alex Mays</h3>
+                                        <h3>Ryan McDonough - 2019</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Cao-Zhang.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Yizhang Cao - 2020</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Chen-Andy.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Andy Chen - 2020</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Huang-William.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>William Huang - 2020</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Ryan Keenan - 2020</h3>
+                                        <p class="font-italic">"Robotics had taught me about life and engineering. I've learned how to make advanced parts in solidworks, which is helpful for someone going into mechanical engineering, plus being able to design whatever I want to print on my personal 3D printer. It has also taught me a lot about teamwork and sharing experiences. No one can build a robot in 6 weeks, so we need to work together."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Wu-Steve.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Kuixian Wu - 2020</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Friedstrom-Abigail.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Abigail Friedstrom - 2021</h3>
+                                        <p class="font-italic">"I don't think there's one specific experience that has had the most impact on me. Joining the team in general has greatly changed me. My focus, my interests, my work ethic, friend group, a lot has changed/impacted me by joining this team. I have a solid friend group, I've found that my passion is STEM, my work ethic/time management is better, and overall I am a better person."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Grimes-Katelyn.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Katelyn Grimes - 2021</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Kyle Reckamp - 2021</h3>
+                                        <p class="font-italic">"Speed is the only acceptable substitute for accurcy. except if you're bad."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Rice-Kaitlyn.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Kaitlyn Rice - 2021</h3>
+                                        <p class="font-italic">"Some of my favorite things about attending the competitions is the energy that is all around you. Everyone is so cheerful and the other teams are always helping other teams out and it’s nice to see. It’s also nice to help the rookie teams out and teach them what we know." </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Sam Thomas - 2021</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Lin Xi Yang - 2021</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Marcus Daley - 2022</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Olea-Bianca.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Bianca Olea - 2022</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Rueter-Will.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Will Rueter - 2022</h3>
+                                        <p class="font-italic">"It might seem like you’re not smart enough, or you’ll never fit in, but that’s not true. The unique learning atmosphere leads to an educational and fun experience for everyone, no matter how experienced you are, and everyone fits in."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Shollenbarger-Ethan-.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Ethan Shollenbarger - 2022</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Sikkema-Luke.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Luke Sikkema - 2022</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                        </div>
+                    </div>
+                    <!--End Mechanical Block-->
+					<!--Start Controls Block-->
+                    <div class="row">
+                        <div id="Controls" class="collapse" aria-labelledby="headingOne" data-parent="#theTeam">
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Nellis-Alex.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Alex Nellis - 2019</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Reinberger-Cade.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Cade Reinberger - 2020</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Nicholas-Peter.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Peter Nicholas - 2021</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Wetherington-Nathan.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Nathan Wetherington - 2021</h3>
+                                        <p class="font-italic">"My most impactful experience was going to Worlds for the first time. This was the most impactful because this was my first ever competitive atmosphere where everyone was simultaneously fiercely loyal to their team but also very supportive of other teams."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Connor Espenshade - 2022</h3>
+                                        <p class="font-italic">"Pursuing a 9 month project from start to finish and adding it on this year’s robot is an incredibly rewarding experience. There were times where I wanted to give up, but the mentors always encouraged me to push through. The feeling when all of your sweat and tears works for the first time is unparalleled, and I had never pursued a project of this scope before. "</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Johnson-Parker.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Parker Johnson - 2022</h3>
+                                        <p class="font-italic">"Robotics has taught me more than I ever thought I could know about coding, wiring and technology. Before the Beak Squad I knew absolutely nothing about coding or anything the controls team does and now, I have grown as a member of the team."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+							<!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Li-Isabella.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Isabella Li - 2022</h3>
+                                        <p class="font-italic">"It's not only a place to learn new skills, it's also a place to make friends. Spending time with the team makes me feel like we are a community."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                        </div>
+                    </div>
+                    <!--End Controls Block-->
+					<!--Start Business and Branding Block-->
+                    <div class="row">
+                        <div id="BusinessBranding" class="collapse" aria-labelledby="headingOne" data-parent="#theTeam">
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Nico Panos - 2019</h3>
+                                        <p class="font-italic">"The Beak Squad experience that has had the biggest impact on me is the task of trying to create the Chairman’s video for the 2018 season as this was the first time I worked on any video editing software. Learning how to work with Adobe Premier will be a useful thing to know for my future say if video work would something to help get certain jobs."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Logan Stryker - 2019</h3>
+                                        <p class="font-italic">""</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Alex Mays - 2020</h3>
                                         <p class="font-italic">"The Beak Squad has helped me learn lots of new skills and exposed me to new kinds of situations like incorparating different suggestions to improve my work and encompass everyone's opinions to reach a final product everyone likes."</p>
                                     </div>
                                 </div>
@@ -646,12 +1126,12 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Doan-Burgess.png" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
-                                        <h3>Chris Max</h3>
-                                        <p class="font-italic">"What I’d say to someone who is on the fence about joining the Beak Squad is quite simple. I would tell them that it is a place where they can get closer to their peers through season and sessions. It is a place where you can learn so many great skills that will help you in the future and will give you so many opportunities."</p>
+                                        <h3>Burgess Doan - 2022</h3>
+                                        <p class="font-italic">""</p>
                                     </div>
                                 </div>
                             </div>
@@ -661,12 +1141,12 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
-                                        <h3>Connor Espenshade</h3>
-                                        <p class="font-italic">"Pursuing a 9 month project from start to finish and adding it on this year’s robot is an incredibly rewarding experience. There were times where I wanted to give up, but the mentors always encouraged me to push through. The feeling when all of your sweat and tears works for the first time is unparalleled, and I had never pursued a project of this scope before."</p>
+                                        <h3>Matthew Hansell - 2022</h3>
+                                        <p class="font-italic">"The Beak Squad experience is unlike any other. We learn real-world skills and experience the rush of competitions and success. Coding and Engineering are helpful skills that high-school student often are not taught. The work is hard and the hours are long, but the product reflects our effort and the outcome is always rewarding. "</p>
                                     </div>
                                 </div>
                             </div>
@@ -676,27 +1156,12 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Heimlich-Henry.png" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
-                                        <h3>Hailey Wichard</h3>
-                                        <p class="font-italic">"I learned how to use photoshop and professionally run social media for the team."</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Isabella Li</h3>
-                                        <p class="font-italic">"One of the biggest things is how to communicate with others, either students or mentors. Facing different problems at different time, communication helps me a lot, like transportation."</p>
+                                        <h3>Henry Heimlich - 2022</h3>
+                                        <p class="font-italic">""</p>
                                     </div>
                                 </div>
                             </div>
@@ -706,12 +1171,12 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Chris-Max.png" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
-                                        <h3>Kate Rice</h3>
-                                        <p class="font-italic">"Some of my favorite things about attending the competitions is the energy that is all around you. Everyone is so cheerful and the other teams are always helping other teams out and it’s nice to see. It’s also nice to help the rookie teams out and teach them what we know."</p>
+                                        <h3>Chris Max - 2022</h3>
+                                        <p class="font-italic">"My experience of the Beak Squad is great. During pre-build season, I worked a lot on the website and helped around a lot. During build season I’ve been working a lot on social media and making sure we have posts everyday."</p>
                                     </div>
                                 </div>
                             </div>
@@ -721,7 +1186,43 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Wichard-Hailey.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Hailey Wichard - 2022</h3>
+                                        <p class="font-italic">"I've learned how to use photoshop and professionally run social media for the team"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                        </div>
+                    </div>
+                    <!--End Business and Branding Block-->
+                    <!--Start Mentors Block-->
+                    <div class="row">
+                        <div id="Mentors" class="collapse" aria-labelledby="headingOne" data-parent="#theTeam">
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Rice-Kaitlyn.png" alt="test" class="profilePicture">
+                                    </div>
+                                    <!--Profile Blurb -->
+                                    <div class="col-8 profileText">
+                                        <h3>Kate Rice</h3>
+                                        <p class="font-italic">Some of my favorite things about attending the competitions is the energy that is all around you. Everyone is so cheerful and the other teams are always helping other teams out and it’s nice to see. It’s also nice to help the rookie teams out and teach them what we know.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Person Block-->
+                            <!--Person Block-->
+                            <div class="col-12 noPadding profileBlock">
+                                <div class="row">
+                                    <!--Profile Picture-->
+                                    <div class="col-4">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
@@ -736,153 +1237,12 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/Daley-Markus.png" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
                                         <h3>Marcus Daley</h3>
                                         <p class="font-italic">"An engineering, marketing, and programming experience you can't get anywhere else. A place where you build relationships with people and have fun."</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Nathan Wetherington</h3>
-                                        <p class="font-italic">"My most impactful experience was going to Worlds for the first time. This was the most impactful because this was my first ever competitive atmosphere where everyone was simultaneously fiercely loyal to their team but also very supportive of other teams."</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Nico Panos</h3>
-                                        <p class="font-italic">"The Beak Squad experience that has had the biggest impact on me is the task of trying to create the Chairman’s video for the 2018 season as this was the first time I worked on any video editing software. Learning how to work with Adobe Premier will be a useful thing to know for my future say if video work would something to help get certain jobs." </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Parker Johnson</h3>
-                                        <p class="font-italic">"Robotics has taught me more than I ever thought I could know about coding, wiring and technology. Before the Beak Squad I knew absolutely nothing about coding or anything the controls team does and now, I have grown as a member of the team.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                        </div>
-                    </div>
-                    <!--End Student Block-->
-                    <!--Start Mentors Block-->
-                    <div class="row">
-                        <div id="Mentors" class="collapse" aria-labelledby="headingOne" data-parent="#theTeam">
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Kate Rice</h3>
-                                        <p class="font-italic">Some of my favorite things about attending the competitions is the energy that is all around you. Everyone is so cheerful and the other teams are always helping other teams out and it’s nice to see. It’s also nice to help the rookie teams out and teach them what we know. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Logan Striker</h3>
-                                        <p class="font-italic">I’ve always wanted to learn how to video edit- and the Beak Squad gave me the opportunity to not only learn, but communicate with others to complete a project. Video editing is an essential aspect to video production- the future I intend to pursue in college. The Beak Squad has given me priceless experience in this regard.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Marcus Daley</h3>
-                                        <p class="font-italic">An engineering, marketing, and programming experience you can't get anywhere else. A place where you build relationships with people and have fun.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Nathan Wetherington</h3>
-                                        <p class="font-italic">My most impactful experience was going to Worlds for the first time. This was the most impactful because this was my first ever competitive atmosphere where everyone was simultaneously fiercely loyal to their team but also very supportive of other teams.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Nico Panos</h3>
-                                        <p class="font-italic">The Beak Squad experience that has had the biggest impact on me is the task of trying to create the Chairman’s video for the 2018 season as this was the first time I worked on any video editing software. Learning how to work with Adobe Premier will be a useful thing to know for my future say if video work would something to help get certain jobs. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Person Block-->
-                            <!--Person Block-->
-                            <div class="col-12 noPadding profileBlock">
-                                <div class="row">
-                                    <!--Profile Picture-->
-                                    <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
-                                    </div>
-                                    <!--Profile Blurb -->
-                                    <div class="col-8 profileText">
-                                        <h3>Parker Johnson</h3>
-                                        <p class="font-italic">Robotics has taught me more than I ever thought I could know about coding, wiring and technology. Before the Beak Squad I knew absolutely nothing about coding or anything the controls team does and now, I have grown as a member of the team.</p>
                                     </div>
                                 </div>
                             </div>
@@ -898,7 +1258,7 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
@@ -913,7 +1273,7 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
@@ -928,7 +1288,7 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
@@ -943,7 +1303,7 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
@@ -958,7 +1318,7 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
@@ -973,7 +1333,7 @@
                                 <div class="row">
                                     <!--Profile Picture-->
                                     <div class="col-4">
-                                        <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="test" class="profilePicture">
+                                        <img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/avatar.svg" alt="test" class="profilePicture">
                                     </div>
                                     <!--Profile Blurb -->
                                     <div class="col-8 profileText">
