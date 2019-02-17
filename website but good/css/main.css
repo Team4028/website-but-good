@@ -1,3 +1,7 @@
+.heightsmall {
+	height: 700px;
+}
+
 
 .spacer {
 	height: 10px;
@@ -124,7 +128,7 @@ a:hover {
 }
 .blurbVideo {
 	width: 70%;
-	height: 400px;
+	height: 500px;
 	object-fit: scale-down;
 }
 .blurbImage {
