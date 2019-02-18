@@ -331,39 +331,23 @@ object-fit: cover;
 .teamMenuItem {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+    background-color: black;
+    color: #e1bf00;
 }
 
 .teamMenuLink {
-    color: white;
     font-weight: 700;
     text-transform: uppercase;
     display: block;
 }
 
 .teamMenuNav li:hover {
-    background-color: blue;
+    color: #f89728; /*Beak Squad Orange*/
 }
 
-
-.mentors {
-    background-color: #3b2168;
-}
-
-.captains {
-    background-color: #3b2168;
-}
-
-.mechanical {
-    background-color: #3b2168;
-}
-.controls {
-    background-color: #3b2168;
-}
-.businessbranding {
-    background-color: #3b2168;
-}
-.alumni {
-	background-color: #3b2168;
+.teamMenuItemActive {
+    background-color: #e1bf00;
+    color: black;
 }
 
 /*profiles*/
