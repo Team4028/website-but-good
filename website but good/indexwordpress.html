@@ -219,18 +219,8 @@
 
 		<div class="col-sm-12 doNotFullyCollapse">
                 <div class="pn-ProductNav_Wrapper">
-                    <nav id="pnProductNavMain" class="pn-ProductNav dragscroll">
-                        <div id="pnProductNavContentsMain" class="pn-ProductNav_Contents">
-                            <span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseBotOne" aria-expanded="true" aria-controls="collapseOne" aria-selected="true" parent="robotInteraction"><h2>2019 | (Name)</h2></span>
-                            <span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseBotTwo" aria-expanded="true" aria-controls="collapseOne"><h2>2018 | E<img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/EclipseC.jpg" width="19.5" height="22.25" alt="C">lipse</h2></span>  
-                        </div>
-                    </nav>
-                    <button id="pnAdvancerLeft" class="pn-Advancer pn-Advancer_Left" type="button">
-                        <svg class="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M445.44 38.183L-2.53 512l447.97 473.817 85.857-81.173-409.6-433.23v81.172l409.6-433.23L445.44 38.18z" /></svg>
-                    </button>
-                    <button id="pnAdvancerRight" class="pn-Advancer pn-Advancer_Right" type="button">
-                        <svg class="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M105.56 985.817L553.53 512 105.56 38.183l-85.857 81.173 409.6 433.23v-81.172l-409.6 433.23 85.856 81.174z" /></svg>
-                    </button>
+
+
                 </div>
             </div>
 		
@@ -238,6 +228,11 @@
         <div class="row">
             <div class="col-sm-12">
                 <!--Overview-->
+                <div class="row">
+                    <div class="col-6 flexCenter"><h3>New Robot Name Here</h3></div>
+                    <div class="col-6 flexCenter"><h3>2018 | <span class="nobr">E<img src="http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/EclipseC.jpg" width="19.5" height="22.25" alt="C">lipse</span></h3></div>
+
+                </div>
                 <div id="robotInteraction">
                     <!--Part #1-->
                     <div id="collapseOne" class="row noPadding collapse show" aria-labelledby="PartXYZ" data-parent="#robotInteraction" data-default="1">
@@ -290,11 +285,13 @@
                         <div class="col-md-5 partOverview">
                             <h3>Vision</h3>
                             <p>
-								<li>The vision system calculates and models different angles that the robot uses to position relatively</li>
-								<li>Robot features a built-in camera with LED/processor called The Lime Light</li>
-								<li>The Lime Light looks for “reflective tape” by shining a specific light</li>
-								<li>The Lime Light also looks for a specific reflection that can create shapes and patterns to create a target</li>
-								<li>Vision feature useful both in Sandstorm and Teleoperation</li>
+                                <ul>
+    								<li>The vision system calculates and models different angles that the robot uses to position relatively</li>
+    								<li>Robot features a built-in camera with LED/processor called The Lime Light</li>
+    								<li>The Lime Light looks for “reflective tape” by shining a specific light</li>
+    								<li>The Lime Light also looks for a specific reflection that can create shapes and patterns to create a target</li>
+    								<li>Vision feature useful both in Sandstorm and Teleoperation</li>
+                                </ul>
 
                             </p>
                         </div>
@@ -372,28 +369,47 @@
 					
                 </div>
             </div>
-				
-            <div class="col-sm-12 doNotFullyCollapse tempcolor">
+
+            <div class="col-sm-12 doNotFullyCollapse robotPartNavbar">
+
                 <div class="pn-ProductNav_Wrapper">
-					<button>
-                    <nav id="pnProductNavHeader" class="pn-ProductNav dragscroll">
+
+                    <nav id="pnProductNav" class="pn-ProductNav dragscroll">
+
                         <div id="pnProductNavContents" class="pn-ProductNav_Contents">
+
                             <span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" aria-selected="true" parent="robotInteraction">Overview</span>
-                            <span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">Sandstorm</span>
-							<span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">Vision</span>
+
+                           <span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">Sandstorm</span>
+
+                            <span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">Vision</span>
+
                             <span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">Bucket &#38; Beak</span>
+
                             <span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">Elevator &#38; Climber</span>
+
                             <span class="pn-ProductNav_Link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseOne">Chassis</span>
-<!--
-                            <span class="pn-ProductNav_Link">Coming Soon</span>
-                            <span class="pn-ProductNav_Link">Coming Soon</span>
-                            <span class="pn-ProductNav_Link">Coming Soon</span>
--->
+
                             <span id="pnIndicator" class="pn-ProductNav_Indicator"></span>
+
                         </div>
+
                     </nav>
+
+                    <button id="pnAdvancerLeft" class="pn-Advancer pn-Advancer_Left" type="button">
+
+                        <svg class="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M445.44 38.183L-2.53 512l447.97 473.817 85.857-81.173-409.6-433.23v81.172l409.6-433.23L445.44 38.18z" /></svg>
+
                     </button>
+
+                    <button id="pnAdvancerRight" class="pn-Advancer pn-Advancer_Right" type="button">
+
+                        <svg class="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M105.56 985.817L553.53 512 105.56 38.183l-85.857 81.173 409.6 433.23v-81.172l-409.6 433.23 85.856 81.174z" /></svg>
+
+                    </button>
+
                 </div>
+
             </div>
         </div>
     </div>
