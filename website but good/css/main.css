@@ -498,7 +498,7 @@ div.scrollmenu {
 }
 
     .pn-ProductNav_Link + .pn-ProductNav_Link {
-        border-left-color: #eee;
+        border-left-color: #202020;
     }
 
     .pn-ProductNav_Link[aria-selected="true"] {
