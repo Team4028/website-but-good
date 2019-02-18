@@ -1,15 +1,67 @@
-$(document).ready( function() {
-    $(window).scroll(function() {
-        var scrollTop = $(window).scrollTop();
-        var divam = 20;
-        $("body").css({
-            "background-position":"0px -"+scrollTop/divam+"px"     
-        });
-        $(".red").css({
-            "margin-top":"-"+scrollTop+"px"
-        });
-    });
+//Toggle class for the Team Nav
+//have to do this since we are setting the whole div as the button
+$('.teamMenuItem').on('click', function(e) {
+    $(".teamMenuItem").removeClass("teamMenuItemActive"); //remove the active class from any of the other nav items
+    $(this).toggleClass("teamMenuItemActive"); //you can list several class names 
 });
+
+//Javascript for the awards section
+        //Slider for achievements
+ //cycle all the elements
+        $('#swipeable')
+            .on('swiperight', function () {
+                console.log("RIGHT");
+                incrementSlider("right");
+            })
+            .on('swipeleft', function () {
+                console.log("LEFT");
+                incrementSlider("left");
+            });
+
+        function incrementSlider(direction) {
+            $(".slide").each(function (i) {
+
+                //Convert Index Value to Integer
+                var position = parseInt($(this).attr("indexNumber"), 10);
+                //Swipe Left Logic
+                if (direction === "right") {
+                    position = position - 1;
+                    if (position == 0) {
+                        //move to the left side
+                        position = 8;
+                    }
+                //Swipe Right Logic
+                } else if (direction === "left") {
+                    position = position + 1;
+                    if (position == 9) {
+                        //move to the left side
+                        position = 1;
+                    }
+                }
+
+                $(this).attr("indexNumber", position);
+                //remove the bsOrder class
+                $(this).removeClass(removeSpecifiedClass);
+                //update the class in the appropriate direction
+                $(this).addClass("bsOrder" + position);
+
+
+            });
+        }
+        
+        function removeSpecifiedClass(index, classNames) {
+            var current_classes = classNames.split(" "), // change the list into an array
+                classes_to_remove = []; // array of classes which are to be removed
+
+            $.each(current_classes, function (index, class_name) {
+                // if the classname begins with bg add it to the classes_to_remove array
+                if (/bsOrder.*/.test(class_name)) {
+                    classes_to_remove.push(class_name);
+                }
+            });
+            // turn the array back into a string
+            return classes_to_remove.join(" ");
+        }
 
 /* always keep at least 1 open by preventing the current to close itself */
 $('[data-toggle="collapse"]').on('click', function (e) {
