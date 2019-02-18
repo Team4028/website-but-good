@@ -201,8 +201,7 @@ object-fit: cover;
 }
 
 .nextAwardButton {
-	height: 50px;
-	width: 50px;
+	height: 75px;
 	position: absolute; /* or absolute */
 	top: 50%;
 	right: 0%;
@@ -210,8 +209,7 @@ object-fit: cover;
 }
 
 .prevAwardButton {
-	height: 50px;
-	width: 50px;
+	height: 75px;
 	position: absolute; /* or absolute */
 	top: 50%;
 	left: 0%;
