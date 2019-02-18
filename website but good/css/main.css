@@ -196,17 +196,21 @@ object-fit: cover;
 }
 
 .nextAwardButton {
-            position: absolute; /* or absolute */
-            top: 50%;
-            right: 0%;
-            z-index: 30;
+	height: 50px;
+	width: 50px;
+	position: absolute; /* or absolute */
+	top: 50%;
+	right: 0%;
+	z-index: 30;
 }
 
 .prevAwardButton {
-            position: absolute; /* or absolute */
-            top: 50%;
-            left: 0%;
-            z-index: 30;
+	height: 50px;
+	width: 50px;
+	position: absolute; /* or absolute */
+	top: 50%;
+	left: 0%;
+	z-index: 30;
 }
 
 .bsOrder1 {
