@@ -1,22 +1,24 @@
 .heightsmall {
-	height: 700px;
+    height: 700px;
 }
-
-
+.hideScrollbar {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.padding {
+    padding: 2em;
+}
 .spacer {
-	height: 10px;
-/*	background-color: fff;*/
+    height: 10px;/*	background-color: fff;*/
 	/*box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);*/
 }
-
 .anchorElement::before {
-    display: block; 
-    content: " "; 
-    margin-top: -115px; 
-    height: 115px; 
-    visibility: hidden; 
+    display: block;
+    content: " ";
+    margin-top: -115px;
+    height: 115px;
+    visibility: hidden;
     pointer-events: none;
-
 }
 /*General Styles*/
 
@@ -25,44 +27,41 @@ html, body {
     overflow-x: hidden;
 }
 a {
-	color: #e1bf00; /*Beak Squad Yellow*/
+    color: #e1bf00; /*Beak Squad Yellow*/
 }
 a:hover {
-	color: #f89728; /*Beak Squad Orange*/
+    color: #f89728; /*Beak Squad Orange*/
 }
-
-.nobr  {  
-    white-space: nowrap;  
-    hyphens: none;  
+.nobr {
+    white-space: nowrap;
+    hyphens: none;
 }
-
 .noPadding {
     padding: 0;
 }
 .sponsorsHero {
-	width: 100vw;
-/*    background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/   
+	height: 100vh;
+    width: 100vw;
+    /*    background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/   
     background-color: lightgrey;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
-
 /*BeakSquadNav*/
 .largeText {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 .mainNav {
-	background-color: #000;
+    background-color: #000;
 }
 #beaksquadMenu {
-	font-size: 1.15em;
+    font-size: 1.15em;
 }
 .mainNav a {
-	color: #fff;
+    color: #fff;
 }
-
 .fixed {
     position: fixed;
     top: 0;
@@ -70,7 +69,6 @@ a:hover {
     width: 100%;
     z-index: 1000;
 }
-
 /*BeakSquadNav*/
 
 
@@ -82,81 +80,74 @@ a:hover {
     background-size: cover;
     background-position: center center;
 }
-
 .heroContent {
     height: 100vh;
 }
 .heroImage {
     width: 100%;
-	height: 45vh;
+    height: 45vh;
     background-size: auto;
 }
-
 .flexCenter {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .heroHeader {
-	font-size: 3.5em;
+    font-size: 3.5em;
 }
 .smallImg {
-	width: 40%;
+    width: 40%;
 }
-
 /*Sponsors Ribbon*/
 .sponsors {
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 130px;
     background-color: white;
 }
-
 .sponsorImage {
-    width:100%;
-    height:100px;
+    width: 100%;
+    height: 100px;
     object-fit: scale-down;
 }
-
 /*End Sponsors Ribbon*/
 
 /*Upcoming Events*/
 .updateHero {
-	width: 100vw;
+    width: 100vw;
     background-image: url("http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/secondarySpaceHeroBackground.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-	color: springgreen;
+    color: #FFFFFF;
 }
 .blurb {
-	padding-top: 10vh;
-	padding-bottom: 10vh;
-	background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
 }
 .blurbVideo {
-	width: 100%;
-	height: 500px;
-	object-fit: scale-down;
+    width: 100%;
+    height: 500px;
+    object-fit: scale-down;
 }
 .blurbImage {
-	display: flex;
-	width: 100%;
-	height:100%;
-	object-fit: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-
 .updates {
     margin-bottom: 5px;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
-
 /*====AWARD STYLES====*/
 
 .awardHero {
+	height: 100vh;
     width: 100vw;
     background-image: url("http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/secondarySpaceHeroBackground.jpeg");
     background-attachment: fixed;
@@ -164,14 +155,11 @@ a:hover {
     background-size: cover;
     background-position: center center;
 }
-
-
 .awards {
-width:100%;
-height:200px;
-object-fit: cover;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
-
 .awardsImageText {
     position: absolute;
     right: 15%;
@@ -183,145 +171,125 @@ object-fit: cover;
     color: #fff;
     text-align: center;
 }
-
 .buttoncolor {
-  color: #e1bf00;
-	background-color: #000;
-  border-color: #e1bf00;
+    color: #e1bf00;
+    background-color: #000;
+    border-color: #e1bf00;
 }
-
 .buttoncolor:hover {
-  color: #000;
-  background-color: #e1bf00;
-  border-color: #e1bf00;
+    color: #000;
+    background-color: #e1bf00;
+    border-color: #e1bf00;
 }
-
 .carousel {
-            padding-top: 20px;
-            padding-bottom: 20px;
-            position: relative;
-            height: 620px;
-            width: 100%;
-            overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    height: 620px;
+    width: 100%;
+    overflow: hidden;
 }
-
 .nextAwardButton {
-	height: 75px;
-	position: absolute; /* or absolute */
-	top: 50%;
-	right: 0%;
-	z-index: 30;
+    height: 75px;
+    position: absolute; /* or absolute */
+    top: 50%;
+    right: 0%;
+    z-index: 30;
 }
-
 .prevAwardButton {
-	height: 75px;
-	position: absolute; /* or absolute */
-	top: 50%;
-	left: 0%;
-	z-index: 30;
+    height: 75px;
+    position: absolute; /* or absolute */
+    top: 50%;
+    left: 0%;
+    z-index: 30;
 }
-
 .bsOrder1 {
-            left: calc(50% + 792px);
-            y: 0;
-            opacity: 0;
-            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
-            transform: scale(0.9);
+    left: calc(50% + 792px);
+    y: 0;
+    opacity: 0;
+    transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+    transform: scale(0.9);
 }
-
 .bsOrder2 {
-            left: calc(50% + 500px);
-            y: 0;
-            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
-            transform: scale(0.95);
+    left: calc(50% + 500px);
+    y: 0;
+    transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+    transform: scale(0.95);
 }
-
 .bsOrder3 {
-            left: calc(50% + 194px);
-            y: 0;
-            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
-            opacity: 1.0;
-            transform: scale(1);
+    left: calc(50% + 194px);
+    y: 0;
+    transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+    opacity: 1.0;
+    transform: scale(1);
 }
-
 .bsOrder4 {
-            left: calc(50% - 141px);
-            y: 0;
-            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
-            opacity: 1.0;
-            width: 283px;
-            height: 430px;
+    left: calc(50% - 141px);
+    y: 0;
+    transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+    opacity: 1.0;
+    width: 283px;
+    height: 430px;
 }
-
 .bsOrder5 {
-            left: calc(50% - 456px);
-            y: 0;
-            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
-            opacity: 1.0;
-            transform: scale(1);
+    left: calc(50% - 456px);
+    y: 0;
+    transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+    opacity: 1.0;
+    transform: scale(1);
 }
-
 .bsOrder6 {
-            left: calc(50% - 760px);
-            y: 0;
-            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
-            transform: scale(0.95);
+    left: calc(50% - 760px);
+    y: 0;
+    transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+    transform: scale(0.95);
 }
-
-        .bsOrder7 {
-            left: calc(50% - 1054px);
-            y: 0;
-            opacity: 0;
-            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
-            transform: scale(0.9);
-        }
-
-        .bsOrder8 {
-            left: calc(50% - 1054px);
-            y: 0;
-            opacity: 0;
-            transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
-            transform: scale(0.9);
-        }
-
-        .slide {
-            width: 262px;
-            height: 450px;
-            position: absolute;
-            overflow: hidden;
-            background-color: lightgray;
-            text-align: center;
-            border-radius: 5px;
-            /*Hover Transition*/
-            transition: all .2s ease-in-out;
-
-                        /*Shadows*/
-            -webkit-box-shadow: -2px 31px 48px -15px rgba(0,0,0,0.48);
-            -moz-box-shadow: -2px 31px 48px -15px rgba(0,0,0,0.48);
-			box-shadow: -2px 31px 48px -15px rgba(0,0,0,0.48);
-        }
-
-        .slide:hover {
-                transform: scale(1.05);
-                z-index: 20;
-        }
-
-
-
-        .awardimage {
-            width: 100%;
-            height: 230px;
-            object-fit: fill;
-        }
-
-        .awardBlurb {
-            padding: 10px;
-        }
-
+.bsOrder7 {
+    left: calc(50% - 1054px);
+    y: 0;
+    opacity: 0;
+    transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+    transform: scale(0.9);
+}
+.bsOrder8 {
+    left: calc(50% - 1054px);
+    y: 0;
+    opacity: 0;
+    transition: all 500ms cubic-bezier(0.2, 0, 0.1, 1);
+    transform: scale(0.9);
+}
+.slide {
+    width: 262px;
+    height: 450px;
+    position: absolute;
+    overflow: hidden;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 5px;
+    /*Hover Transition*/
+    transition: all .2s ease-in-out;
+    /*Shadows*/
+    -webkit-box-shadow: -2px 31px 48px -15px rgba(0,0,0,0.48);
+    -moz-box-shadow: -2px 31px 48px -15px rgba(0,0,0,0.48);
+    box-shadow: -2px 31px 48px -15px rgba(0,0,0,0.48);
+}
+.slide:hover {
+    transform: scale(1.05);
+    z-index: 20;
+}
+.awardimage {
+    width: 100%;
+    height: 230px;
+    object-fit: fill;
+}
+.awardBlurb {
+    padding: 10px;
+}
 /*====TEAM STYLES====*/
 .teamHero {
+	height: 100vh;
     width: 100vw;
-    padding: 2vh 0px 2vh 0px ;
+    padding: 2vh 0px 2vh 0px;
     display: flex;
     background-image: url("http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/secondarySpaceHeroBackground.jpeg");
     background-attachment: fixed;
@@ -329,7 +297,6 @@ object-fit: cover;
     background-size: cover;
     background-position: center center;
 }
-
 /*Team Menu*/
 .teamMenuItem {
     padding-top: 1.5em;
@@ -337,96 +304,78 @@ object-fit: cover;
     background-color: black;
     color: #e1bf00;
 }
-
 .teamMenuLink {
     font-weight: 700;
     text-transform: uppercase;
     display: block;
 }
-
 .teamMenuNav li:hover {
     color: #f89728; /*Beak Squad Orange*/
 }
-
 .teamMenuItemActive {
     background-color: #e1bf00;
     color: black;
 }
-
 /*profiles*/
 .profilePicture {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
-
 .profileText {
     padding: 1.2em;
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
-
 .profiletext h3 {
-	font-variant: small-caps;
+    font-variant: small-caps;
 }
-
 .profileBlock {
     margin-bottom: 5px;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
 }
-
-
 /*Robot Interaction*/
 .interactiveRobotScenario {
-	padding: 20px 0px;
+	height: 100vh;
+    padding: 20px 0px;
     padding-bottom: 5vh;
     /*background-color: #cccccc;*/
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23500778' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
-
 .robotPartNavbar {
     background-color: black;
     color: #e1bf00;
 }
-
 .partImage {
     width: 100%;
     height: 400px;
     object-fit: scale-down;
 }
-
 .partOverview {
     padding-top: 15px;
     padding-left: 2em;
     padding-right: 2em;
 }
-
 div.scrollmenu {
     background-color: #333;
     overflow: auto;
     white-space: nowrap;
 }
-
-    div.scrollmenu a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px;
-        text-decoration: none;
-    }
-
-        div.scrollmenu a:hover {
-            background-color: #777;
-        }
-
-
-
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+div.scrollmenu a:hover {
+    background-color: #777;
+}
 .pn-ProductNav_Wrapper {
     position: relative;
     padding: 0 11px;
     box-sizing: border-box;
 }
-
 .pn-ProductNav {
     /* Make this scrollable when needed */
     overflow-x: auto;
@@ -441,17 +390,13 @@ div.scrollmenu {
     position: relative;
     font-size: 0;
 }
-
 .js .pn-ProductNav {
     /* Make an auto-hiding scroller for the 3 people using a IE */
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-    /* Remove the default scrollbar for WebKit implementations */
+    -ms-overflow-style: -ms-autohiding-scrollbar;/* Remove the default scrollbar for WebKit implementations */
 }
-
-    .js .pn-ProductNav::-webkit-scrollbar {
-        display: none;
-    }
-
+ .js .pn-ProductNav::-webkit-scrollbar {
+ display: none;
+}
 .pn-ProductNav_Contents {
     float: left;
     -webkit-transition: -webkit-transform .2s ease-in-out;
@@ -460,12 +405,10 @@ div.scrollmenu {
     transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
     position: relative;
 }
-
 .pn-ProductNav_Contents-no-transition {
     -webkit-transition: none;
     transition: none;
 }
-
 .pn-ProductNav_Link {
     text-decoration: none;
     font-size: 1.2rem;
@@ -480,20 +423,16 @@ div.scrollmenu {
     border: 1px solid transparent;
     padding: 0 11px;
 }
-
 .pn-ProductNav_Link:hover {
     color: #f89728; /*Beak Squad Orange*/
 }
-
-    .pn-ProductNav_Link + .pn-ProductNav_Link {
-        border-left-color: #202020;
-    }
-
-    .pn-ProductNav_Link[aria-selected="true"] {
-        color: black;
-        background-color: #e1bf00;
-    }
-
+.pn-ProductNav_Link + .pn-ProductNav_Link {
+    border-left-color: #202020;
+}
+.pn-ProductNav_Link[aria-selected="true"] {
+    color: black;
+    background-color: #e1bf00;
+}
 .pn-Advancer {
     /* Reset the button */
     -webkit-appearance: none;
@@ -511,37 +450,29 @@ div.scrollmenu {
     -webkit-transition: opacity .3s;
     transition: opacity .3s;
 }
-
-    .pn-Advancer:focus {
-        outline: 0;
-    }
-
-    .pn-Advancer:hover {
-        cursor: pointer;
-    }
-
+.pn-Advancer:focus {
+    outline: 0;
+}
+.pn-Advancer:hover {
+    cursor: pointer;
+}
 .pn-Advancer_Left {
     left: 0;
 }
-
 [data-overflowing="both"] ~ .pn-Advancer_Left, [data-overflowing="left"] ~ .pn-Advancer_Left {
     opacity: 1;
 }
-
 .pn-Advancer_Right {
     right: 0;
 }
-
 [data-overflowing="both"] ~ .pn-Advancer_Right, [data-overflowing="right"] ~ .pn-Advancer_Right {
     opacity: 1;
 }
-
 .pn-Advancer_Icon {
     width: 20px;
     height: 44px;
     fill: #bbb;
 }
-
 .pn-ProductNav_Indicator {
     position: absolute;
     bottom: 0;
@@ -556,16 +487,20 @@ div.scrollmenu {
     transition: transform .2s ease-in-out, background-color .2s ease-in-out;
     transition: transform .2s ease-in-out, background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
 }
-
 /*Robot Interaction*/
 
 /*sponsors*/
 .soaring {
-	padding-top: 2vh;
+    padding-top: 2vh;
 }
-
 .golden {
-	padding-top: 2vh;
+    padding-top: 2vh;
+}
+.baldeaglestart {
+	padding-top: 10vh;
+}
+.bald {
+    padding-top: 2vh;
 }
 .sponsorPageImage {
     width: 100%;
@@ -577,7 +512,6 @@ div.scrollmenu {
     height: 70px;
     object-fit: scale-down;
 }
-
 .decreaseSize {
     width: 50%;
 }
@@ -588,9 +522,9 @@ div.scrollmenu {
     color: white;
     background: #3b2168;
     background: -moz-linear-gradient(top, #3b2168 0%, #1d1626 100%);
-    background: -webkit-linear-gradient(top, #3b2168 0%,#1d1626 100%);
-    background: linear-gradient(to bottom, #3b2168 0%,#1d1626 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b2168', endColorstr='#1d1626',GradientType=0 );
+    background: -webkit-linear-gradient(top, #3b2168 0%, #1d1626 100%);
+    background: linear-gradient(to bottom, #3b2168 0%, #1d1626 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b2168', endColorstr='#1d1626', GradientType=0 );
 }
 
 /*-===================-*/
@@ -599,30 +533,24 @@ div.scrollmenu {
 
 /* xs */
 @media screen and (max-width: 767px) {
-	.blurbVideo {
-		height: 300px;
-	}
-
-    .sponsorPageImage {
-        height: 80px;
-    }
-
-    .sponsorPageImageGold {
-        height: 30px;
-    }
-	
+.blurbVideo {
+    height: 300px;
 }
-	
+.sponsorPageImage {
+    height: 80px;
+}
+.sponsorPageImageGold {
+    height: 30px;
+}
+}
 
 /* sm */
 @media screen and (min-width: 768px) {
-
 }
 
 /* md */
 @media screen and (min-width: 992px) {
 }
-
 
 /* lg */
 @media screen and (min-width: 1200px) {
