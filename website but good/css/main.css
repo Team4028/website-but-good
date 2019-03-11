@@ -40,17 +40,21 @@ a:hover {
     padding: 0;
 }
 .sponsorsHero {
-	height: 100vh;
     width: 100vw;
-    /*    background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/   
+/*	background-image: url(https://images.pexels.com/photos/958362/pexels-photo-958362.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);*/
+	    background-image: url(https://images.pexels.com/photos/1252872/pexels-photo-1252872.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     background-color: lightgrey;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+/*	background-image: url("http://www.beaksquad.org/newsite/wp-content/uploads/2019/02/secondarySpaceHeroBackground.jpeg");*/
+    color: #FFFFFF;
+	padding-bottom: 5em;
 }
 /*BeakSquadNav*/
 .largeText {
+	height: 100vh;
     font-size: 1.5em;
 }
 .mainNav {
@@ -287,7 +291,7 @@ a:hover {
 }
 /*====TEAM STYLES====*/
 .teamHero {
-	height: 100vh;
+	/*height: 100vh;*/
     width: 100vw;
     padding: 2vh 0px 2vh 0px;
     display: flex;
@@ -490,6 +494,15 @@ div.scrollmenu a:hover {
 /*Robot Interaction*/
 
 /*sponsors*/
+.sponsorsHero h1 {
+	color: #FFF;
+}
+.sponsorsHero h2 {
+	color: #FFF;
+}
+.sponsorsHero h3 {
+	color: #FFF;
+}
 .soaring {
     padding-top: 2vh;
 }
@@ -541,7 +554,6 @@ div.scrollmenu a:hover {
 }
 .sponsorPageImageGold {
     height: 30px;
-}
 }
 
 /* sm */
